@@ -2,3 +2,7 @@ mat-form-field,
 textarea {
   width: 100%;
 }
+
+mat-card,form{
+  margin: 1.5rem;
+}
