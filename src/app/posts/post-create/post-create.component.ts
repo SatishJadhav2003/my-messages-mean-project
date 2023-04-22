@@ -15,7 +15,8 @@ export class PostCreateComponent implements OnInit {
   enteredContent = "";
   private postId:string;
   private mode = "create";
-  private post:Post;
+  post:Post;
+
 
 
   constructor(public postsService: PostsService, public route:ActivatedRoute) {}
